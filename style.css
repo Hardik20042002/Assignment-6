@@ -1,0 +1,133 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ background-color: rgb(183, 209, 209);
+ height: 100%;
+ width: 100%;
+}
+nav{
+ width: 100vw;
+ height: 6vw;
+ font-size: 2.5rem;
+ font-family: 'Dancing Script', cursive;
+ padding: 5px 100px;
+ background-color: rgb(69, 225, 225);
+ box-shadow: 0px 10px 40px black ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+#container{
+ margin: 70px auto;
+ height: 600px;
+ width: 500px;
+ border: 2px solid black;
+ border-radius: 7%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ box-shadow: 15px 15px 20px black;
+ background-color: #231942;
+}
+#container h1{
+ color: white;
+ font-size: 25px;
+ display: inline-block;
+ text-align: center;
+ margin-top: 30px;
+ font-family: 'Open Sans', sans-serif;
+}
+#add{
+ margin-top: 35px;
+ height: 50px;
+ width: 410px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 15px;
+ background-image: linear-gradient( 83.2deg, rgba(99,88,238,1) 10.8%, rgba(150,93,233,1) 94.3% );
+}
+#add #data{
+ height: 95%;
+ width: 90%;
+ padding-left: 25px;
+ color: white;
+ font-size: 20px;
+ background-color: #231942;
+ border: 0px;
+ margin-left: 0.5%;
+}
+#add button{
+ font-size: 40px;
+ background-color: transparent;
+ height: 100%;
+ width: 15%;
+ border: 0px;
+ color: white;
+ object-fit: contain;
+}
+ul{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ flex-wrap: nowrap;
+ overflow: auto;
+ white-space: nowrap;
+}
+.li{
+ margin-top: 3px;
+ min-height: 65px;
+ min-width: 360px;
+ padding-left: 25px;
+ border: 2px solid black;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: flex-start;
+ align-items: center;
+ border-radius: 10px;
+ background-image: linear-gradient( 83.2deg, rgba(99,88,238,1) 10.8%, rgba(150,93,233,1) 94.3% );
+}
+.li:hover{
+ width: 375px;
+}
+.checked,.del,.up,.down,.edit{
+ height: 25px;
+ width: 10%;
+ border-radius: 5px;
+ background-color: white;
+}
+.checked{
+ margin: 5px 8px;
+ font-size: 18px;
+ border: 2px solid gray;
+}
+.edit,.del,.up,.down{
+ border: 0px;
+ background-color: transparent;
+ font-size: 15px;
+ color: white;
+ margin-bottom: 3px;
+ margin-right: 6px;
+}
+.edit:hover,.del:hover,.up:hover,.down:hover{
+ background-color: white;
+ color: black;
+}
+.content{
+ font-size: 20px;
+ width: 55%;
+ color: white;
+ display: inline;
+ margin-right: 70px;
+}
+.text{
+ text-decoration: line-through;
+ text-decoration-color: black;
+}
+button:hover{
+ cursor: pointer;
+}
